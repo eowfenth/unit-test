@@ -18,4 +18,8 @@ const divisao = (a, b) => {
   return a / b;
 };
 
-module.exports = { soma, divisao };
+const digaOi = () => {
+  console.log('oI');
+};
+
+module.exports = { soma, divisao, digaOi };
