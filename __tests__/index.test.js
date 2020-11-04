@@ -2,7 +2,7 @@ const { soma, divisao } = require('../index');
 
 describe('testes de soma', () => {
   test('soma de 1 com 2', () => {
-    expect(soma(1, 2)).toBe(4);
+    expect(soma(1, 2)).toBe(3);
   });
 
   test('soma de -1 e -4', () => {
